@@ -2,4 +2,4 @@
 
 VERSION=`cat VERSION`
 
-docker build ./$VERSION -t bedrock-server:$VERSION
+docker build ./$VERSION -t mumblingmac/bedrock:$VERSION
